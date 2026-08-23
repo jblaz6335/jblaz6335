@@ -4,6 +4,8 @@
 
 ### Cybersecurity Practitioner | Automation Developer | Systems Builder
 
+[![Services](https://img.shields.io/badge/Blaz_Algo_Systems-Services_%26_Pricing-2563EB?style=for-the-badge)](https://blazalgosystems.netlify.app/services/)
+[![Proof](https://img.shields.io/badge/Public-Proof_of_Work-14B8A6?style=for-the-badge)](https://blazalgosystems.netlify.app/proof-of-work/)
 [![Fiverr](https://img.shields.io/badge/Fiverr-View_Services-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white)](https://www.fiverr.com/joshuahernan882)
 [![x402 Marketplace](https://img.shields.io/badge/x402-Live_Marketplace-0052FF?style=for-the-badge)](https://ai-data-marketplace-1042299154756.us-central1.run.app)
 [![npm](https://img.shields.io/npm/v/dopaminedesk-ai-data-marketplace-mcp?style=for-the-badge&logo=npm&label=MCP%20Package)](https://www.npmjs.com/package/dopaminedesk-ai-data-marketplace-mcp)
@@ -27,6 +29,15 @@ A reproducible Security Operations Center investigation that correlates a simula
 - Sigma detection rules and MITRE ATT&CK mapping
 - Automated tests, investigation timeline, incident report, and interactive dashboard
 - Synthetic evidence with explicit safety and privacy boundaries
+
+### [Packet Proof](https://github.com/jblaz6335/packet-proof-nutrient-dws)
+
+An auditable trade-document exception desk built for the 2026 Nutrient DWS challenge.
+
+- Reconciles a commercial invoice, packing list, and certificate of origin
+- Deterministic quantity, identity, origin, arithmetic, and confidence checks
+- Human review boundary with source hashes and a stable audit trail
+- 78 tests and 98.09% branch-aware coverage
 
 ### [DopamineDesk x402 Marketplace](https://github.com/jblaz6335/mcp-server-aidatamarketplace)
 
@@ -83,6 +94,10 @@ A server-authoritative Roblox idle tycoon built in Luau with a Rojo-compatible s
 3. Test normal behavior, failure cases, and misuse paths.
 4. Document the architecture, setup, and operating procedure.
 5. Ship source code that is understandable and verifiable.
+
+## Hire me
+
+Fixed-scope pilots start at $125 for MCP work, $140 for Python/API repair, and $149 for lead-response automation. See the complete [service menu and working demos](https://blazalgosystems.netlify.app/services/) or email [blazalgosystems@gmail.com](mailto:blazalgosystems@gmail.com?subject=Automation%20project%20from%20GitHub).
 
 <div align="center">
 
