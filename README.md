@@ -9,6 +9,7 @@
 [![Fiverr](https://img.shields.io/badge/Fiverr-View_Services-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white)](https://www.fiverr.com/joshuahernan882)
 [![x402 Marketplace](https://img.shields.io/badge/x402-Live_Marketplace-0052FF?style=for-the-badge)](https://ai-data-marketplace-1042299154756.us-central1.run.app)
 [![npm](https://img.shields.io/npm/v/dopaminedesk-ai-data-marketplace-mcp?style=for-the-badge&logo=npm&label=MCP%20Package)](https://www.npmjs.com/package/dopaminedesk-ai-data-marketplace-mcp)
+[![Project for Sale](https://img.shields.io/badge/For_Sale-Webhook_Vault_%24350-7C3AED?style=for-the-badge)](https://www.sideprojectors.com/project/90433/webhook-vault-php-webhook-inspector)
 
 </div>
 
@@ -17,6 +18,12 @@
 I am an independent developer and cybersecurity practitioner focused on practical systems that solve real operational problems. I design and build the projects featured here from architecture through testing, deployment, and documentation.
 
 My work includes security investigation tooling, payment-enabled APIs, MCP integrations, data pipelines, workflow automation, web applications, and server-authoritative game systems. I value clear boundaries, tested failure cases, maintainable source code, and documentation that makes a system easy to operate.
+
+## Project available for acquisition
+
+### [Webhook Vault: PHP Webhook Inspector](https://www.sideprojectors.com/project/90433/webhook-vault-php-webhook-inspector)
+
+A complete, tested, self-hosted PHP 8.1+ webhook capture and diagnostics product is available for a negotiable **$350** acquisition. The sale includes the clean source package, interface assets, setup documentation, buyer QA notes, seven deterministic tests, and transfer documentation. It is honestly listed as pre-revenue with zero users; no domain, hosting account, credentials, customer data, seller accounts, or Blaz Algo Systems branding are included.
 
 ## Featured work
 
