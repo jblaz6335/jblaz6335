@@ -1,113 +1,45 @@
-<div align="center">
-
 # Joshua Hernandez
 
-### Cybersecurity Practitioner | Automation Developer | Systems Builder
+### Cybersecurity, backend development, and AI automation
 
-[![Services](https://img.shields.io/badge/Blaz_Algo_Systems-Services_%26_Pricing-2563EB?style=for-the-badge)](https://blazalgosystems.netlify.app/services/)
-[![Proof](https://img.shields.io/badge/Public-Proof_of_Work-14B8A6?style=for-the-badge)](https://blazalgosystems.netlify.app/proof-of-work/)
-[![Fiverr](https://img.shields.io/badge/Fiverr-View_Services-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white)](https://www.fiverr.com/joshuahernan882)
-[![x402 Marketplace](https://img.shields.io/badge/x402-Live_Marketplace-0052FF?style=for-the-badge)](https://ai-data-marketplace-1042299154756.us-central1.run.app)
-[![npm](https://img.shields.io/npm/v/dopaminedesk-ai-data-marketplace-mcp?style=for-the-badge&logo=npm&label=MCP%20Package)](https://www.npmjs.com/package/dopaminedesk-ai-data-marketplace-mcp)
-[![Project for Sale](https://img.shields.io/badge/For_Sale-Webhook_Vault_%24350-7C3AED?style=for-the-badge)](https://www.sideprojectors.com/project/90433/webhook-vault-php-webhook-inspector)
+I build tools for security investigations, reliable APIs, and workflows that keep consequential decisions under human control. My projects focus on repeatable results, failure handling, and documentation that makes the work easy to inspect.
 
-</div>
+I'm interested in opportunities across cybersecurity/SOC, backend software development, and AI automation.
 
-## About me
+[Portfolio](https://blazalgosystems.netlify.app/proof-of-work/) · [Contact](mailto:blazalgosystems@gmail.com)
 
-I am an independent developer and cybersecurity practitioner focused on practical systems that solve real operational problems. I design and build the projects featured here from architecture through testing, deployment, and documentation.
+## Selected projects
 
-My work includes security investigation tooling, payment-enabled APIs, MCP integrations, data pipelines, workflow automation, web applications, and server-authoritative game systems. I value clear boundaries, tested failure cases, maintainable source code, and documentation that makes a system easy to operate.
+| Project | Problem it addresses | Engineering evidence |
+| --- | --- | --- |
+| [SOC Incident Investigation Lab](https://github.com/jblaz6335/soc-incident-investigation-lab) | Investigate a simulated Windows account compromise | Python correlation engine, EVTX ingestion, Sigma rules, incident reports, and automated tests |
+| [Packet Proof](https://github.com/jblaz6335/packet-proof-nutrient-dws) | Find inconsistencies across trade documents before release | Document extraction, deterministic validation, audit hashes, fixture replay, and human review |
+| [Decision Gate](https://github.com/jblaz6335/decision-gate-agent) | Handle repeated inbox events and escalate consequential requests | SQLite persistence, idempotent ingestion, Strands tools, a reviewable outbox, and a separate approval CLI |
+| [API Reliability Kit](https://github.com/jblaz6335/api-reliability-kit) | Handle common API integration failures | Pagination, bounded retries, duplicate suppression, conflict detection, and resumable state |
+| [DopamineDesk MCP Adapter](https://github.com/jblaz6335/mcp-server-aidatamarketplace) | Connect agents to a pay-per-call data marketplace | OpenAPI-driven tool discovery, free previews, opt-in payment handling, and per-call limits |
+| [Revenue Sentinel](https://github.com/jblaz6335/revenue-sentinel) | Turn uncertain opportunity listings into an auditable review queue | Deterministic scoring, FastAPI, Google ADK integration, evidence digests, and ledger storage |
 
-## Project available for acquisition
+## Explore the work
 
-### [Webhook Vault: PHP Webhook Inspector](https://www.sideprojectors.com/project/90433/webhook-vault-php-webhook-inspector)
+- **Security:** [investigation report](https://github.com/jblaz6335/soc-incident-investigation-lab/blob/main/docs/incident-report.md), [Sigma detections](https://github.com/jblaz6335/soc-incident-investigation-lab/tree/main/detections/sigma), and [validation notes](https://github.com/jblaz6335/soc-incident-investigation-lab/blob/main/docs/validation.md).
+- **Backend reliability:** [API failure-case tests](https://github.com/jblaz6335/api-reliability-kit/blob/main/tests/test_engine.py) and [Packet Proof verification record](https://github.com/jblaz6335/packet-proof-nutrient-dws/blob/main/VERIFICATION.md).
+- **AI automation:** [Decision Gate architecture](https://github.com/jblaz6335/decision-gate-agent/blob/main/docs/architecture.md) and [interactive evidence explorer](https://jblaz6335.github.io/decision-gate-agent/).
 
-A complete, tested, self-hosted PHP 8.1+ webhook capture and diagnostics product is available for a negotiable **$350** acquisition. The sale includes the clean source package, interface assets, setup documentation, buyer QA notes, seven deterministic tests, and transfer documentation. It is honestly listed as pre-revenue with zero users; no domain, hosting account, credentials, customer data, seller accounts, or Blaz Algo Systems branding are included.
+The SOC lab uses synthetic telemetry. Packet Proof includes a fictional-document demo. Decision Gate's current implementation stages responses in an outbox; it does not send messages. Each repository documents its scope and setup.
 
-## Featured work
+## Tools I use
 
-### [SOC Incident Investigation Lab](https://github.com/jblaz6335/soc-incident-investigation-lab)
+Python · JavaScript/Node.js · FastAPI · SQLite · Git/GitHub Actions · OpenAPI · Sigma · Windows event logs · MCP · Google ADK · Strands Agents
 
-A reproducible Security Operations Center investigation that correlates a simulated Windows account compromise from authentication failures through suspicious execution, network activity, and sensitive-file access.
-
-- Python detection and correlation engine
-- JSONL and native Windows EVTX ingestion
-- Sigma detection rules and MITRE ATT&CK mapping
-- Automated tests, investigation timeline, incident report, and interactive dashboard
-- Synthetic evidence with explicit safety and privacy boundaries
-
-### [Packet Proof](https://github.com/jblaz6335/packet-proof-nutrient-dws)
-
-An auditable trade-document exception desk built for the 2026 Nutrient DWS challenge.
-
-- Reconciles a commercial invoice, packing list, and certificate of origin
-- Deterministic quantity, identity, origin, arithmetic, and confidence checks
-- Human review boundary with source hashes and a stable audit trail
-- 78 tests and 98.09% branch-aware coverage
-
-### [DopamineDesk x402 Marketplace](https://github.com/jblaz6335/mcp-server-aidatamarketplace)
-
-A production MCP server and pay-per-call data marketplace using x402 payments on Base Mainnet.
-
-- USDC payment verification without subscriptions or traditional API keys
-- Data products for EVM, markets, compliance, business identity, and public commerce
-- Published npm package with OpenAPI documentation and automated verification
-- Bounded previews, payment safety limits, and production deployment controls
-
-### [AI Data Marketplace API](https://github.com/jblaz6335/ai-data-marketplace-api)
-
-The validated OpenAPI 3.1 contract for the marketplace.
-
-- Machine-readable service discovery
-- x402 payment metadata and Base Network settlement details
-- Automated schema and manifest validation
-- Designed for MCP clients and automated software integrations
-
-### [Bounty Farm](https://github.com/jblaz6335/bounty-farm)
-
-A proof-first Python scanner that discovers paid public open-source work, verifies every issue against GitHub, rejects stale or unsuitable targets, and produces ranked JSON and CSV reports.
-
-### [Hacker Tycoon](https://github.com/jblaz6335/hacker-tycoon)
-
-A server-authoritative Roblox idle tycoon built in Luau with a Rojo-compatible source tree, runtime-generated environments, DataStore persistence, modular services, progression systems, and client presentation layers.
-
-## Security credentials
+## Security learning
 
 - Fortinet FortiGate 7.6 Operator
 - Fortinet cybersecurity fundamentals coursework
 - Cisco Networking Academy Introduction to Cybersecurity
 - IBM SkillsBuild Cybersecurity Fundamentals
-- BrowserStack Test University Manual Testing with BrowserStack Live
 
-## Tools and technologies
+## More work
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![C Sharp](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-![OpenAPI](https://img.shields.io/badge/OpenAPI-6BA539?style=for-the-badge&logo=openapiinitiative&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+[Hacker Tycoon](https://github.com/jblaz6335/hacker-tycoon) explores server-authoritative game systems in Luau. [Review-Gated n8n Lead Intake](https://github.com/jblaz6335/n8n-review-gated-lead-intake) demonstrates consent checks, deduplication, and draft-only follow-up routing.
 
-`REST APIs` `MCP` `x402` `Webhooks` `Data Pipelines` `Security Automation` `Sigma Rules` `MITRE ATT&CK` `Luau` `Rojo`
-
-## How I work
-
-1. Define the operational problem and its safety boundaries.
-2. Design the smallest maintainable system that solves it.
-3. Test normal behavior, failure cases, and misuse paths.
-4. Document the architecture, setup, and operating procedure.
-5. Ship source code that is understandable and verifiable.
-
-## Hire me
-
-Fixed-scope pilots start at $125 for MCP work, $140 for Python/API repair, and $149 for lead-response automation. See the complete [service menu and working demos](https://blazalgosystems.netlify.app/services/) or email [blazalgosystems@gmail.com](mailto:blazalgosystems@gmail.com?subject=Automation%20project%20from%20GitHub).
-
-<div align="center">
-
-### Build it clean. Test it properly. Make it useful.
-
-</div>
+For freelance projects, see [Blaz Algo Systems services](https://blazalgosystems.netlify.app/services/).
